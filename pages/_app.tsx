@@ -1,10 +1,11 @@
 import type { AppProps } from 'next/app'
 import { CssBaseline } from "@mui/material";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { useState } from 'react';
 
 const theme = createTheme({
   palette: {
-    mode: "dark",
+    mode: "light",
     primary: {
       main: "#198754"
     },

@@ -7,6 +7,12 @@ import Baza20 from "../public/images/baza20.jpg";
 import Bazen from "../public/images/bazen.jpg";
 import Turn from "../public/images/turn.jpg";
 
+/* 
+.js -> javascript
+.jsx -> javascript + html -> react
+.tsx -> typescript = react + types
+*/
+
 const Home: NextPage = () => {
     return (
         <Article title="Občina Dolenjske Toplice">
