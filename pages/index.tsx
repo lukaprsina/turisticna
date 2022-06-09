@@ -1,9 +1,6 @@
 import { NextPage } from "next";
 import Article from "../components/Article";
 import ArticleImage from "../components/ArticleImage";
-import {
-    Typography,
-} from "@mui/material";
 
 import Aerial from "../public/images/aerial.jpg";
 import Baza20 from "../public/images/baza20.jpg";

@@ -2,7 +2,6 @@ import { Box, Grid, Typography } from "@mui/material";
 import Navbar from "./Navbar";
 import HeroImage from "./HeroImage";
 import Footer from "./Footer";
-import Ad from "./Ad";
 import Gallery from "./Gallery";
 
 type ArticleProps = {
@@ -16,11 +15,6 @@ function Article({ children, title }: ArticleProps) {
             <Gallery site={children}></Gallery>
             <Navbar />
             <HeroImage />
-            {/* <Grid container>
-        <Grid item>
-          <Ad />
-        </Grid>
-        <Grid item> */}
             <Box
                 sx={{
                     maxWidth: "820px",
@@ -38,11 +32,6 @@ function Article({ children, title }: ArticleProps) {
                 </Typography>
                 {children}
             </Box>
-            {/* </Grid>
-        <Grid item>
-          <Ad />
-        </Grid>
-      </Grid> */}
             <Footer />
         </>
     );

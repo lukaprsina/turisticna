@@ -19,7 +19,6 @@ function Navbar() {
         <Box sx={{ flexGrow: 1 }}>
             <AppBar
                 position="static"
-                color="primary"
                 sx={{
                     display: "flex!important",
                     justifyContent: "center!important",
@@ -29,7 +28,6 @@ function Navbar() {
             >
                 <Toolbar
                     disableGutters
-                    color="primary"
                     sx={{
                         width: "80%",
                         display: "flex",
